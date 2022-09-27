@@ -10,6 +10,8 @@ package mx.itson.radiant.ui;
  */
 public class Principal extends javax.swing.JFrame {
 
+
+    //Comentario para saber si funciona
     /**
      * Creates new form Principal
      */
