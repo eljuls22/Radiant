@@ -2,5 +2,5 @@
 /out/
 /Radiant.iml
 /build/
-!/nbproject/private/private.properties
-!/nbproject/project.properties
+/nbproject/private/
+/nbproject/project.properties
