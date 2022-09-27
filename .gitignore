@@ -1,0 +1,6 @@
+/.idea/
+/out/
+/Radiant.iml
+/build/
+!/nbproject/private/private.properties
+!/nbproject/project.properties
