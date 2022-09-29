@@ -10,14 +10,12 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * The type Principal.
+ * Interfaz de usuario con formulario para generar la CURP.
  *
- * @author julio
+ * @author Julio Blanco
+ * @author Diego Castro
  */
 public class Principal extends javax.swing.JFrame {
-
-
-    //Comentario para saber si funciona
 
     /**
      * Creates new form Principal
@@ -232,7 +230,7 @@ public class Principal extends javax.swing.JFrame {
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
-     // Método con el cual se genera la curp a partir de los datos ingresados.
+    // Método para obtener los datos de la interfaz de usuario.
     private void btnAceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAceptarActionPerformed
         String nombre = txtNombre.getText();
         String apellidoPaterno = txtApellidoPaterno.getText();

@@ -1,7 +1,10 @@
 package mx.itson.radiant.negocio;
 
 /**
- * The type Curp.
+ * Contiene el metodo para generar la curp.
+ * 
+ * @author Julio Blanco
+ * @author Diego Castro
  */
 public class Curp {
     /**
