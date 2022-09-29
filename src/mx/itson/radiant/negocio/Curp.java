@@ -5,18 +5,17 @@ package mx.itson.radiant.negocio;
  */
 public class Curp {
     /**
-     * Generar curp string.
+     * Genera la curp del usuario a partir de la lectura de ciertos datos.
+     * @param nombre          Los dos nombres del usuario, el nombre en caso de solo tener uno.
+     * @param apellidoPaterno Primer apellido del usuario.
+     * @param apellidoMaterno El segundo apellido del usuario.
+     * @param dia             Día de nacimiento.
+     * @param mes             Mes de nacimiento.
+     * @param anio            Año de nacimiento.
+     * @param genero          El género del usuario.
+     * @param estado          Entidad federativa del usuario.
      *
-     * @param nombre          the nombre
-     * @param apellidoPaterno the apellido paterno
-     * @param apellidoMaterno the apellido materno
-     * @param dia             the dia
-     * @param mes             the mes
-     * @param anio            the anio
-     * @param genero          the genero
-     * @param estado          the estado
-     *
-     * @return the string
+     * @return La curp con los datos que el usuario ingresó
      */
     public String generarCurp(String nombre, String apellidoPaterno, String apellidoMaterno, String dia, String mes, String anio, String genero, String estado) {
 

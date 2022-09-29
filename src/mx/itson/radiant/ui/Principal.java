@@ -232,7 +232,7 @@ public class Principal extends javax.swing.JFrame {
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
-
+     // Método con el cual se genera la curp a partir de los datos ingresados.
     private void btnAceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAceptarActionPerformed
         String nombre = txtNombre.getText();
         String apellidoPaterno = txtApellidoPaterno.getText();
@@ -242,7 +242,7 @@ public class Principal extends javax.swing.JFrame {
         String anio = txtAnio.getText();
         String genero = btnGenero.getSelectedItem().toString();
         String estado = btnEstado.getSelectedItem().toString();
-
+        // Try/Catch para verificar que los datos ingresados sean válidos.
         try {
             if (nombre.isEmpty() || apellidoPaterno.isEmpty() || apellidoMaterno.isEmpty() || dia.isEmpty() || mes.isEmpty() || anio.isEmpty()) {
                 JOptionPane.showMessageDialog(null, "Debe llenar todos los campos obligatorios *");
@@ -259,7 +259,7 @@ public class Principal extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Erro: " + e);
         }
     }//GEN-LAST:event_btnAceptarActionPerformed
-
+    // Método que hace las funciones de Java Swing para solo aceptar ya sean números o letras.
     private void txtDiaKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtDiaKeyPressed
         char c = evt.getKeyChar();
         if (Character.isLetter(c)) {
